@@ -3,69 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated Form</title>
-    <style>
-        /* Lavender background for the page */
-        body {
-            background-color: lavender;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        /* Styling for the form */
-        .contact-form {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            width: 300px;
-            text-align: center;
-        }
-
-        /* Input fields styling */
-        .contact-form input,
-        .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        /* Animated submit button with gradient color */
-        .contact-form button {
-            background: linear-gradient(45deg, #8e44ad, #3498db);
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            animation: wobble 1.5s infinite;
-        }
-
-        /* Wobble animation */
-        @keyframes wobble {
-            0%, 100% {
-                transform: rotate(0deg);
-            }
-            25% {
-                transform: rotate(3deg);
-            }
-            75% {
-                transform: rotate(-3deg);
-            }
-        }
-
-        /* Change button color on hover */
-        .contact-form button:hover {
-            background: linear-gradient(45deg, #3498db, #8e44ad);
-        }
-    </style>
+    <title>Contact Form</title>
 </head>
 <body>
     <div class="contact-form">
